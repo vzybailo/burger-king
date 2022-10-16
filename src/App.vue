@@ -6,6 +6,7 @@
       </v-app-bar-title>
     </v-app-bar>
     <v-main>
+      <list/>
     </v-main>
   </v-app>
 </template>
@@ -13,9 +14,9 @@
 import list from './components/List.vue'
 
 export default {
+  name: 'App',
   components: {
     list
-  },
-  name: 'App'
+  }
 }
 </script>
